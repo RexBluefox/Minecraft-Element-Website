@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "Minecraft";
+    src: url("font/MinecraftRegular.otf");
+}
+.img-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+body {
+    background-color: #111111;
+}
+h2 {
+    text-decoration: underline;
+}
+.mc {
+    font-family: "Minecraft";
+    color:white;
+}
+table, th, td {
+    border: 1px solid;
+    padding: 10px;
+}
+table {
+    border-collapse: collapse;
+}
+.u {
+    text-decoration: underline;
+}
+.todo {
+    color: red;
+}
+.abgeschlossen {
+    color: green;
+}
