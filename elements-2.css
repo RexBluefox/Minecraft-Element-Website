@@ -7,6 +7,10 @@
     display: flex;
     justify-content: center;
 }
+.img-container img {
+    width: 100%;
+    max-width: 500px;
+}
 body {
     background-color: #111111;
 }
@@ -21,6 +25,11 @@ table, th, td {
     border: 1px solid;
     padding: 10px;
 }
+td > div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 table {
     border-collapse: collapse;
 }
@@ -32,4 +41,19 @@ table {
 }
 .abgeschlossen {
     color: green;
+}
+#teilnehmer {
+    max-width: 600px;
+}
+a {
+    text-decoration: none;
+}
+#teilnehmer a {
+    color: white;
+}
+#teilnehmer a.live {
+    color: red;
+}
+.live::before {
+    content:"[LIVE] "
 }

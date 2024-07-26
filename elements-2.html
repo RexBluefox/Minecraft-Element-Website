@@ -4,8 +4,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elements 2</title>
     <link rel="stylesheet" href="elements-2.css">
+    <!-- <script src="https://unpkg.com/twitch-js@2.0.0-beta.45/dist/twitch.js"></script> -->
 </head>
 <body>
+    
     <!-- <h1>Elements 2</h1> -->
     <div class="img-container">
         <img src="img/elements-2-removebg-preview.png">
@@ -14,7 +16,7 @@
         <h2 class="mc">Teilnehmer</h2>
         <div id="teilnehmer">
             <p class="mc">
-                BaastiZockt, Blizzor, CastCrafter, Clym, Crocodileandy, ein_Holzkopf, Fabo, Faister, Filow, Flocke, Gamerstime, GommeHD, Gamingguidesde, iOser100, LetsHugoTV, Merleperle, nooreax, NQRMVN, Pumi, rewinside, RGBPixl, Rumathra, Sebo, SpacemitX, SparkofPhoenix, TheJoCraft, Tjan, Trymacs, Urutox, Wichtiger, Zarbex, ZweifachGustaf
+                <!-- BaastiZockt, Blizzor, CastCrafter, Clym, Crocodileandy, ein_Holzkopf, Fabo, Faister, Filow, Flocke, Gamerstime, GommeHD, Gamingguidesde, iOser100, LetsHugoTV, Merleperle, nooreax, NQRMVN, Pumi, rewinside, RGBPixl, Rumathra, Sebo, SpacemitX, SparkofPhoenix, TheJoCraft, Tjan, Trymacs, Urutox, Wichtiger, Zarbex, ZweifachGustaf -->
             </p>
         </div>
         <div id="Uniques">
@@ -26,9 +28,44 @@
                     <th>Nutzen</th>
                 </tr>
                 <tr>
-                    <td>XD</td>
-                    <td>So halt</td>
-                    <td>Also in der Richtung</td>
+                    <td>
+                        <div>
+                            <img src="img/items/Papier.webp" style="width: 20%">
+                            <p>Hugos Konzertticket</p>
+                        </div>
+                    </td>
+                    <td>Fabo</td>
+                    <td>+ 10% Joah</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div>
+                            <img src="img/items/Vines.webp" style="width: 20%">
+                            <p>Nasser Klumpen</p>
+                        </div>
+                    </td>
+                    <td>Fuxel</td>
+                    <td>//IDK</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div>
+                            <img src="img/items/Firecharge.webp" style="width: 20%">
+                            <p>Planetenkern</p>
+                        </div>
+                    </td>
+                    <td>NQRMAN</td>
+                    <td>//IDK</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div>
+                            <img src="img/items/Diorit.webp" style="width: 20%">
+                            <p>Clyms Lieblingsblock</p>
+                        </div>
+                    </td>
+                    <td>//IDK</td>
+                    <td>//IDK</td>
                 </tr>
                 <tr>
                     <td>Icon </td>
@@ -40,12 +77,63 @@
         <div id="challenges">
             <h2 class="mc">Challenges</h2>
             
-            <h4 class="mc u">Angeln oder so <span class="mc todo">(TODO)</span></h4>
-            <p class="mc"> bli bla blub</p>
+            <h4 class="mc u">Angel Gedicht <span class="mc abgeschlossen">(Fertig)</span></h4>
+            <p class="mc"><b>Lösung:</b> Angel craften</p>
+            <img src="img/element-angel.png" style="width: 50%; max-width: 300px;">
 
-            <h4 class="mc u">Angeln oder so <span class="mc abgeschlossen">(Fertig)</span></h4>
-            <p class="mc">ja genau. das is es</p>
+            <h4 class="mc u">Findet Nemo <span class="mc abgeschlossen">(Fertig)</span></h4>
+            <p class="mc"><b>Lösung:</b> Tropenfisch auf Koralle werfen und gespawnten Fisch mit Eimer fangen und abgeben</p>
         </div>
+        <footer class="mc" style="font-size: 0.5rem; color:aquamarine">Erstellt von <a href="https://github.com/RexBluefox" class="mc u" style="color:aqua">Bluefox</a> :3</footer>
     </div>
+    <script>
+        var teilnehmer = [
+            {"name":"BaastiZockt","link":""},
+            {"name":"Blizzor","link":""},
+            {"name":"CastCrafter","link":""},
+            {"name":"Clym","link":"https://www.twitch.tv/clym"},
+            {"name":"Crocodileandy","link":""},
+            {"name":"ein_Holzkopf","link":""},
+            {"name":"Fabo","link":"https://www.twitch.tv/fabo"},
+            {"name":"Faister","link":""},
+            {"name":"Filow","link":""},
+            {"name":"Fuxel","link":"https://www.twitch.tv/fuxelbau"},
+            {"name":"Flocke","link":""},
+            {"name":"Gamerstime","link":""},
+            {"name":"GommeHD","link":""},
+            {"name":"Gamingguidesde","link":""},
+            {"name":"iOser100","link":""},
+            {"name":"LetsHugoTV","link":""},
+            {"name":"Merleperle","link":""},
+            {"name":"nooreax","link":""},
+            {"name":"NQRMVN","link":""},
+            {"name":"Pumi","link":""},
+            {"name":"rewinside","link":""},
+            {"name":"RGBPixl","link":""},
+            {"name":"Rumathra","link":""},
+            {"name":"Sebo","link":""},
+            {"name":"SpaceMitX","link":"https://www.twitch.tv/spacemitx"},
+            {"name":"SparkofPhoenix","link":"https://www.twitch.tv/sparkofphoenixtv"},
+            {"name":"TheJoCraft","link":""},
+            {"name":"Tjan","link":"https://www.twitch.tv/tjan"},
+            {"name":"Trymacs","link":""},
+            {"name":"Urutox","link":""},
+            {"name":"Wichtiger","link":"https://www.twitch.tv/wichtiger"},
+            {"name":"Zarbex","link":""},
+            {"name":"ZweifachGustaf","link":""}
+        ]
+        var tt = document.getElementById("teilnehmer").querySelector("p")
+        console.log(tt)
+        for (var tn of teilnehmer) {
+            let p = document.createElement("a");
+            p.innerText = tn["name"] + ", ";
+            p.href = tn["link"]
+            if (tn["name"] == "SparkofPhoenix"){
+                p.classList.add("live")
+            }
+            //console.log(tn)
+            tt.append(p)
+        }
+    </script>
 </body>
 </html>
